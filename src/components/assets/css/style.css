@@ -17,15 +17,16 @@ a:hover {
 }
 h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
+    color: black;
     font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'}
-.page-section {
-    /* background-image: url('../../assets/img/14.jpg'); */
+.page-section {    
+    background-image: linear-gradient(rgb(234, 232, 243), rgb(255, 255, 255), rgb(8, 8, 9));
+    background-color: #cccccc;
     background-attachment:fixed;
-    /* padding: 100px 0;     */
-    background-repeat: no-repeat;
-    /* background-attachment: scroll; */
+     background-repeat: no-repeat;   
     background-position: center;
     background-size:cover;
+   
  
 }
 .page-section h2.section-heading {
@@ -90,7 +91,13 @@ img::-moz-selection {
     grid-gap :35px;
     text-align: center;
     margin-right: 5rem;
+     
 }
+.tube{
+    size:10vw;
+    
+}
+
 header.masthead {
      text-align: center;
     color: #fff;
@@ -386,4 +393,9 @@ ul.social-buttons li a {
 }
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
     background-color: #fed136;
+}
+.service img{
+    height: 260px;
+    width: 350px;
+    border-radius: 8px;
 }

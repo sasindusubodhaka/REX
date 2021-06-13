@@ -1,49 +1,43 @@
-import React from 'react'
+import React from 'react';
+import mix from '../../assets/img/3.jpg';
+import com from '../../assets/img/com.jpg';
+import rec from '../../assets/img/rec.jpg';
+
 
 function Service() {
     return (
-<header className="masthead">
-<section className="page-section" id="services">
-    <div className="container">
-      <div className="row">
-        <div className="col-lg-12 text-center">
-          <h2 className="section-heading text-uppercase">Services</h2>
-          <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+<header className="masthead" style={{backgroundColor:'white'}} >
+<section className="page-section" id="services" >
+    <div className="container"  >
+      <div className="mb-3">
+        <div className="col-lg-12 mb-3">
+          <h1 className="section-heading text-uppercase">Services</h1>
+          <h3 className="section-subheading text-muted"></h3>
         </div>
       </div>
       <div className="row text-center">
         <div className="col-md-4">
-          <span className="fa-stack fa-4x">
-            <i className="fa fa-circle fa-stack-2x text-primary"></i>
-            <i className="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
-          </span>
-          <h4 className="service-heading">E-Commerce</h4>
+          <div className="service">
+           <img src={mix} />
+          </div>
+          <h4 className="service-heading">MIXING & MASTERING </h4>
           <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
         </div>
         <div className="col-md-4">
-          <span className="fa-stack fa-4x">
-            <i className="fa fa-circle fa-stack-2x text-primary"></i>
-            <i className="fa fa-laptop fa-stack-1x fa-inverse"></i>
-          </span>
-          <h4 className="service-heading">Responsive Design</h4>
+        <div className="service">
+           <img src={com} />
+          </div>
+          <h4 className="service-heading">MUSIC COMPOSITION</h4>
           <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
         </div>
         <div className="col-md-4">
-          <span className="fa-stack fa-4x">
-            <i className="fa fa-circle fa-stack-2x text-primary"></i>
-            <i className="fa fa-lock fa-stack-1x fa-inverse"></i>
-          </span>
-          <h4 className="service-heading">Web Security</h4>
+        <div className="service">
+           <img src={rec} />
+          </div>
+          <h4 className="service-heading">MUSIC RECORDING</h4>
           <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
         </div>
-        <div className="col-md-4">
-          <span className="fa-stack fa-4x">
-            <i className="fa fa-circle fa-stack-2x text-primary"></i>
-            <i className="fa fa-lock fa-stack-1x fa-inverse"></i>
-          </span>
-          <h4 className="service-heading">Web Security</h4>
-          <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-        </div>
+   
       </div>
     </div>
     </section>
