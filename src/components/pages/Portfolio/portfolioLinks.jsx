@@ -2,17 +2,17 @@ export const portfolioLinks=[
      {
        title: 'Threads',
         caption: 'Illustration',
-        url:'TTplrGalA_k'
+        url:'XZgiNnGB8m4'
       },
       {
         title: 'Explore',
         caption: 'Graphic Design',
-        url:'dVzwYmgEyFQ'
+        url:'qTjvQ1qulB8'
       },
       {
         title: 'Finish',
         caption: 'Identity',
-        url:'6i0a7RDPkM8'
+        url:'qTjvQ1qulB8'
       },
       {
         title: 'Lines',
@@ -22,7 +22,7 @@ export const portfolioLinks=[
       {
         title: 'Southwest',
         caption: 'Website Design',
-        url:'2CkB4a0A7cQ'
+        url:'XZgiNnGB8m4'
       },
       {
         title: 'Window',

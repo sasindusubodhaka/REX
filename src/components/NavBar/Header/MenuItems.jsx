@@ -16,12 +16,12 @@ export const MenuItems=[
     },
     {
         title:"AUDIO GEARS",
-        link:"./contact",
+        link:"./audiogears",
         cName:'nav-links'  
     },
     {
         title:"ABOUT",
-        link:"./about",
+        link:"./aboutus",
         cName:'nav-links'  
     },
 

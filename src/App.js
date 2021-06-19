@@ -6,6 +6,7 @@ import Home from './components/pages/Home/Home';
 import Service from './components/pages/Service/Service';
 import Portfolio from './components/pages/Portfolio/Portfolio';
 import AudioGears from './components/pages/AudioGears/AudioGears';
+import About from './components/pages/About/About';
 
 import './components/assets/css/bootstrap.min.css';
 import './components/assets/css/style.css';
@@ -21,7 +22,7 @@ function App() {
                     <Route path="/service" component={Service}></Route>
                     <Route path="/portfolio" component={Portfolio}></Route>
                     <Route path="/audiogears" component={AudioGears}></Route>
-
+                    <Route path="/aboutus" component={About}></Route>
                 </Switch>
                 <Footer />
             </Router>
