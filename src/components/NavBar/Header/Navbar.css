@@ -8,6 +8,8 @@
     font-size: 1.2rem;
     position: static;
     overflow: hidden;
+    /* backdrop-filter: blur(8px); */
+    
 
 }
 .navbar-logo{
@@ -29,6 +31,7 @@
     width: 70vw;
     justify-content: end;
     margin-right: 2rem;
+   
 }
 .nav-links{
     color:white;
@@ -47,9 +50,7 @@
 .fa-bars{
     color:white;
 }
-.nav-links-mobile{
-    /* display: none; */
-}
+
 .menu-icon{
     display: none;
 }

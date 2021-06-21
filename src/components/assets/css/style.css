@@ -14,37 +14,19 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     color: black;
     font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'}
-.page-section-audio {    
+.page-section {    
+
     /* background-image: linear-gradient(rgb(43, 42, 46), rgb(255, 255, 255), rgb(8, 8, 9)); */
-    background-image: url('../img/22.jpg');
-    background-color: #cccccc;
+    /* background-image: url('../img/22.jpg'); */
+    /* background-color: #cccccc;
     background-attachment:fixed;
      background-repeat: no-repeat;   
     background-position: center;
-    background-size:cover;
+    background-size:cover; */
    
  
 }
-.page-section-portfolio {     
-    background-image: url('../img/20.jpg');
-    background-color: #cccccc;
-    background-attachment:fixed;
-     background-repeat: no-repeat;   
-    background-position: center;
-    background-size:cover;
-   
- 
-}
-.page-section {     
-    background-image: url('../img/24.jpg');
-    background-color: #cccccc;
-    background-attachment:fixed;
-     background-repeat: no-repeat;   
-    background-position: center;
-    background-size:cover;
-   
- 
-}
+
 .page-section h2.section-heading {
     font-size: 40px;
     margin-top: 0;
@@ -414,4 +396,8 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     height: 260px;
     width: 350px;
     border-radius: 8px;
+}
+.social{
+    display:inline-flex;
+    position: fixed;
 }

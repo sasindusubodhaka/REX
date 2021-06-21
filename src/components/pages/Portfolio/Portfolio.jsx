@@ -1,7 +1,7 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import {portfolioLinks} from './portfolioLinks'
 import Youtube from 'react-youtube'
-import img from '../../assets/img/2.jpg';
+import img from '../../assets/img/20.jpg';
 import { white } from 'jest-matcher-utils/node_modules/chalk';
 import {
   CCard,
@@ -17,6 +17,9 @@ import {
   CRow 
 } from '@coreui/react'
 function Portfolio() {
+  useEffect(()=>{
+    document.body.style.backgroundImage = `url('${img}')`;  
+  },[]);
     return (
     
 
@@ -26,7 +29,7 @@ function Portfolio() {
        
         <div className="row align-items-start"> 
             <div className="col">  
-            <h3 style={{color:white}}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis quisquam ducimus dicta aliquam voluptas vel 
+            <h3 style={{color:"white"}}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis quisquam ducimus dicta aliquam voluptas vel 
               dolorem ullam soluta adipisci, blanditiis quaerat sapiente ipsam asperiores! Illum consequatur aperiam in ipsam animi?
             </h3>
             </div>

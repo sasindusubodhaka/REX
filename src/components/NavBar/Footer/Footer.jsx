@@ -5,7 +5,7 @@ function Footer() {
     return (
         <div>
              <footer className="footer">
-                    <span className=""><h4><b>All Rights Recevered 2021 @Recordex</b></h4></span>
+                    <span className=""><p className="text-muted" style={{color:"white"}}>All Rights Recevered 2021 @Recordex</p></span>
              </footer>
         </div>
     )

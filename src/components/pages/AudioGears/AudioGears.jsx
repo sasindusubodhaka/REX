@@ -1,9 +1,11 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import './Audio.scss';
 import mix from '../../assets/img/3.jpg';
 import com from '../../assets/img/com.jpg';
 import rec from '../../assets/img/rec.jpg';
-import './Audio.css'
+
+import img from '../../assets/img/22.jpg'
+
 
 import {
   CCard,
@@ -27,49 +29,52 @@ const slides = [
 
 
 function AudioGears() {
+    useEffect(()=>{
+        document.body.style.backgroundImage = `url('${img}')`;  
+      },[]);
     return (
-        <section className="page-section-audio" id="services"  >
-          <div className="container">             
+        <section className="page-section" id="services"  >
+          <div className="container">         
    
               <div className="row align-items-start"> 
                     <div className="col">                           
                             <ul>
-                                <li className="mb-3">
+                                <div className="mb-3">
                                  <article className="leaderboard__profile">
                                 <img src="https://randomuser.me/api/portraits/men/97.jpg" alt="Dustin Moskovitz" class="leaderboard__picture"/>
                                 <span className="leaderboard__name">Dustin Moskovitz</span>
                                 </article>
-                                </li>
-                                <li className="mb-3">
+                                </div>
+                                <div className="mb-3">
                                  <article className="leaderboard__profile">
                                 <img src="https://randomuser.me/api/portraits/men/97.jpg" alt="Dustin Moskovitz" class="leaderboard__picture"/>
                                 <span className="leaderboard__name">Dustin Moskovitz</span>
                                 </article>
-                                </li>
-                                <li className="mb-3">
+                                </div>
+                                <div className="mb-3">
                                  <article className="leaderboard__profile">
                                 <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/GuitareClassique5.png" alt="Dustin Moskovitz" class="leaderboard__picture"/>
                                 <span className="leaderboard__name">Dustin Moskovitz</span>
                                 </article>
-                                </li>
-                                <li className="mb-3">
+                                </div>
+                                <div className="mb-3">
                                  <article className="leaderboard__profile">
                                 <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/GuitareClassique5.png" alt="Dustin Moskovitz" class="leaderboard__picture"/>
                                 <span className="leaderboard__name">Dustin Moskovitz</span>
                                 </article>
-                                </li>
-                                <li className="mb-3">
+                                </div>
+                                <div className="mb-3">
                                  <article className="leaderboard__profile">
                                 <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/GuitareClassique5.png" alt="Dustin Moskovitz" class="leaderboard__picture"/>
                                 <span className="leaderboard__name">Dustin Moskovitz</span>
                                 </article>
-                                </li>
-                                <li className="mb-3">
+                               </div>
+                               <div className="mb-3">
                                  <article className="leaderboard__profile">
                                 <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/GuitareClassique5.png" alt="Dustin Moskovitz" class="leaderboard__picture"/>
                                 <span className="leaderboard__name">Dustin Moskovitz</span>
                                 </article>
-                                </li>
+                              </div>
                             </ul>
                     </div>
                     <div className="col-6">
