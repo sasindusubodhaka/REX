@@ -4,18 +4,19 @@ import Youtube from 'react-youtube'
 import img from '../../assets/img/20.jpg';
 import { white } from 'jest-matcher-utils/node_modules/chalk';
 import {
+  CBadge,
   CCard,
   CCardBody,
+  CCardFooter,
   CCardHeader,
-  CCarousel,
-  CCarouselCaption,
-  CCarouselControl,
-  CCarouselIndicators,
-  CCarouselInner,
-  CCarouselItem,
   CCol,
-  CRow 
-} from '@coreui/react'
+  CRow,
+  CCollapse,
+  CFade,
+  CSwitch,
+  CLink
+} from  '@coreui/react'
+
 function Portfolio() {
   useEffect(()=>{
     document.body.style.backgroundImage = `url('${img}')`;  
@@ -28,10 +29,28 @@ function Portfolio() {
       <section className="page-section-portfolio" id="services"  >      
        
         <div className="row align-items-start"> 
-            <div className="col">  
-            <h3 style={{color:"white"}}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis quisquam ducimus dicta aliquam voluptas vel 
-              dolorem ullam soluta adipisci, blanditiis quaerat sapiente ipsam asperiores! Illum consequatur aperiam in ipsam animi?
-            </h3>
+        <div className="col ml-5"> 
+            <div className="card">
+              <CCard color="danger" className="text-white">
+                <CCardHeader>
+                  Latest work
+                </CCardHeader>
+                <CCardBody>
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                  laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                  ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                  laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                  ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                  laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                  ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                  laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                  ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                </CCardBody>
+              </CCard>
+            </div>  
             </div>
             <div className="col">  
             <div className="portfolio-item" >        
