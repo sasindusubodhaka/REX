@@ -1,52 +1,166 @@
 import React,{useEffect} from 'react';
-import mix from '../../assets/img/3.jpg';
-import com from '../../assets/img/com.jpg';
-import rec from '../../assets/img/4.jpg';
+import home from '../../assets/img/com.jpg';
 
+
+
+import {
+  CBadge,
+  CCard,
+  CCardBody,
+  CCardFooter,
+  CCardHeader,
+  CCol,
+  CRow,
+  CCollapse,
+  CFade,
+  CSwitch,
+  CLink,
+  CCarousel,
+  CCarouselCaption,
+  CCarouselControl,
+  CCarouselIndicators,
+  CCarouselInner,
+  CCarouselItem
+
+} from '@coreui/react'
 
 function Service() {
   useEffect(()=>{
-    document.body.style.backgroundImage = `url('${rec}')`;  
+    document.body.style.backgroundImage = `url('${home}')`;  
   },[]);
     return (
-   
 
-          <header className="masthead"  >
-          <section className="page-section" id="services" >
+        
               <div className="container"  >
-                <div className="mb-3">
-                  <div className="col-lg-12 mb-3">
-                    <h1 className="section-heading text-uppercase">Services</h1>
-                    <h3 className="section-subheading text-muted"></h3>
-                  </div>
-                </div>
-                <div className="row text-center">
-                  <div className="col-md-4">
-                    <div className="service">
-                    <img src={mix} />
-                    </div>
-                    <h4 className="service-heading">MIXING & MASTERING </h4>
-                    <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                  </div>
-                  <div className="col-md-4">
-                  <div className="service">
-                    <img src={com} />
-                    </div>
-                    <h4 className="service-heading">MUSIC COMPOSITION</h4>
-                    <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                  </div>
-                  <div className="col-md-4">
-                  <div className="service">
-                    <img src={rec} />
-                    </div>
-                    <h4 className="service-heading">MUSIC RECORDING</h4>
-                    <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                  </div>
-            
-                </div>
+                 <p style={{color:"white",fontFamily:"Segoe UI",fontSize:"40px"}}>OUR SERVICES</p>
+                  <div className="row">
+                        <div className="col-6 ">     
+                                <div className="card mb-2 h-25">                           
+                                      <CCard color="primary" className="text-white h-100" >
+                                          <CCardHeader>
+                                              MIXING
+                                          </CCardHeader>
+                                      <CCardBody>                                       
+                                          The mixing takes place in two control rooms, 
+                                          equipped for the most comfortable listening experience. 
+                                          The variety of analog and digital instrumentation allows us to obtain extremely fine products.
+                                          Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis n ullamcorper suscipitullamcorper suscipit
+                                          Ut wisi enim ad minim veniam, quis nostrud exerci tatio
+                                       
+                                      </CCardBody>
+                                    </CCard>  
+                                </div>      
+                                <div className="card mb-2 h-25">                                                        
+                                      <CCard color="dark" className="text-white h-100">
+                                          <CCardHeader>
+                                          MASTERING
+                                          </CCardHeader>
+                                      <CCardBody>
+                                       Mastering a disk means assuring the highest audio quality of the mixed tracks enhancing dynamics, volumes, stereophony and frequency contents.
+                                       During the mastering phase the sound obtained during the mixing is further characterized and customized to assure a perfect reproduction on any audio support and system.
+                                      </CCardBody>
+                                    </CCard>
+                              </div>    
+                              <div className="card mb-2 h-25">                                                        
+                                      <CCard color="primary" className="text-white h-100">
+                                          <CCardHeader>
+                                          AUDIO DUBBING & VOICEOVER
+                                          </CCardHeader>
+                                      <CCardBody>
+                                     Contact us today for more info on live recordings in natural and artificial environments for the sonorization of short films, documentaries, films, commercials and video clips. Request an estimate for our Synchronization and Post-Production services. We work with pre-existing audio material.
+                                      </CCardBody>
+                                    </CCard>
+                              </div> 
+                              <div className="card mb-2 h-25">                                                        
+                                      <CCard color="dark" className="text-white h-100">
+                                          <CCardHeader>
+                                          OTHER
+                                          </CCardHeader>
+                                      <CCardBody>
+                                          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                                          laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                                          ullamcorper suscipit lobortis n ullamcorper suscipitullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                                      </CCardBody>
+                                    </CCard>
+                              </div> 
+                              <div className="card mb-2 h-25"> 
+                              <CCard color="primary" className="text-white h-100">
+                                  <CCardHeader>
+                                    OTHER
+                                  </CCardHeader>
+                              <CCardBody>
+                                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                                  laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                                  ullamcorper suscipit lobortis n ullamcorper suscipitullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                              </CCardBody>
+                            </CCard>
+                            </div>  
+                        </div>
+                      <div className="col-6 ">
+                          <div className="card mb-2 h-25"> 
+                              <CCard color="primary" className="text-white h-100">
+                                  <CCardHeader>
+                                  RECORDING
+                                  </CCardHeader>
+                              <CCardBody>
+                               We work with different genres, rock, pop, punk, dance, electro, folk, jazz, r&b, choral, orchestral.
+                              When recording at our facilities it's possible to obtain a vast variety of sounds thanks to two recording rooms with different sound characteristics and a wide selection of instruments at the musicians' disposal. 
+                              Our objective is to work with you towards the obtainment of your ideal sound.
+                              </CCardBody>
+                            
+                            </CCard>           
+                            </div> 
+                            <div className="card mb-2 h-25">                                                        
+                                      <CCard color="dark" className="text-white h-100">
+                                          <CCardHeader>
+                                          MOBILE STUDIO RECORDING
+                                          </CCardHeader>
+                                      <CCardBody>
+                                     Our cutting-edge equipment assures freedom of movement and creative solutions without compromising the quality of the classic studio recording. The logistic advantages are unquestionable. Mobility allows us to use the sound characteristics of theatres, cinemas, auditoriums, concert and conference halls, churches and open spaces.
+                          
+                                      </CCardBody>
+                                    </CCard>
+                              </div> 
+                              <div className="card mb-2 h-25">                                                        
+                                      <CCard color="primary" className="text-white h-100">
+                                          <CCardHeader>
+                                          LIVE RECORDING
+                                          </CCardHeader>
+                                      <CCardBody>
+                                      At SUDESTUDIO we offer Live Recording. Our two rooms (LIVE ROOM and STUDIO B) and various mobile boots are designed to make the artists feel comfortable during their live performance assuring at the same time the highest quality of sound.
+                                      We work with pre-existing audio material.
+                                      </CCardBody>
+                                    </CCard>
+                              </div> 
+                            <div className="card mb-2 h-25"> 
+                              <CCard color="dark" className="text-white h-100">
+                                  <CCardHeader>
+                                    OTHER
+                                  </CCardHeader>
+                              <CCardBody>
+                                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                                  laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                                  ullamcorper suscipit lobortis n ullamcorper suscipitullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                              </CCardBody>
+                            </CCard>
+                            </div> 
+                            <div className="card mb-2 h-25"> 
+                              <CCard color="primary" className="text-white h-100">
+                                  <CCardHeader>
+                                    OTHER
+                                  </CCardHeader>
+                              <CCardBody>
+                                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                                  laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                                  ullamcorper suscipit lobortis n ullamcorper suscipitullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                              </CCardBody>
+                            </CCard>
+                            </div> 
+
+                      </div>
+                      </div>
               </div>
-              </section>
-            </header>
+             
     
     )
 }

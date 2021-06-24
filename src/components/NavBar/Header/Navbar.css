@@ -1,5 +1,5 @@
 .NavbarItems{
-    /* background: linear-gradient(98deg,rgb(45, 45, 46) 0%,rgb(88, 88, 92)); */
+    
     font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
     height: 65px;
     display:flex;
@@ -8,7 +8,7 @@
     font-size: 1.2rem;
     position: static;
     overflow: hidden;
-    /* backdrop-filter: blur(8px); */
+    backdrop-filter: blur(2px);
     
 
 }

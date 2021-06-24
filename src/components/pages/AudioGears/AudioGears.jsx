@@ -1,209 +1,234 @@
 import React,{useEffect} from 'react';
 import './Audio.scss';
-import a1 from '../../assets/img/3.jpg';
-import a2 from '../../assets/img/10.jpg';
-import a3 from '../../assets/img/23.jpg';
-import a4 from '../../assets/img/12.jpg';
+
+import g1 from '../../assets/img/g5.jpg'; 
+import g2 from '../../assets/img/25.jpg';
+import g3 from '../../assets/img/g3.jpg';
+
+import m1 from '../../assets/img/home.jpg'; 
+import m2 from '../../assets/img/port.jpg';
+import m3 from '../../assets/img/13.jpg';
+
+import k1 from '../../assets/img/10.jpg'; 
+import k2 from '../../assets/img/k2.jpg';
+import k3 from '../../assets/img/i1.jpg';
 
 
-import i1 from '../../assets/img/i1.jpg';
-import i2 from '../../assets/img/i2.jpg';
-import i3 from '../../assets/img/i3.jpg';
-import i4 from '../../assets/img/i4.jpg';
-
-import h2 from '../../assets/img/h2.png';
-
+import back from '../../assets/img/i3.jpg';
+import h2 from '../../assets/img/head.png'
+import inst from '../../assets/img/inst.png'
 
 
 import {
   CCard,
-  CCardBody,
-  CCardHeader,
   CCarousel,
-  CCarouselCaption,
   CCarouselControl,
   CCarouselIndicators,
   CCarouselInner,
   CCarouselItem,
-  CCol,
-  CRow 
 } from '@coreui/react'
 
-const audio = [
-    a1,a2,a3,a4
+const mic = [
+    m1,m2,m3
    
   ];
-
-  const ins = [
-    i1,i2,i3,i4
-   
-  ];
-
-
-
+const key =[
+    k1,k2,k3
+]
+const guitar =[
+  g1,g2,g3
+]
 function AudioGears() {
     useEffect(()=>{
-        document.body.style.backgroundImage = `url('${i1}')`;  
+        document.body.style.backgroundImage = `url('${back}')`;  
       },[]);
       const styleobj={
-        fontSize:30,
+        fontSize:"40px",
         color:"white",
+        fontFamily:"Segoe UI"
 
       }
     return (
-        // <section className="page-section" id="services"  >
-     <div className="container pt-5">        
-          <div className="row align-items-start mt-5"> 
-                    <div className="col mr-3 ">    
-                            <p style={styleobj}>Instruments</p>                       
+       
+             
+          <div className="row mt-5" > 
+                    <div className="col ml-5 " style={{alignItems:'left'}}>    
+                            <p style={styleobj}>Audio Gears</p>                       
                             <ul>
                                 <div className="mt-5">
                                  <article className="leaderboard__profile">
-                                <img src="https://randomuser.me/api/portraits/men/97.jpg" alt="Dustin Moskovitz" class="leaderboard__picture"/>
-                                <span className="leaderboard__name">Dustin Moskovitz</span>
+                                <img src={h2} alt="Dustin Moskovitz" class="leaderboard__picture"/>
+                                <span className="leaderboard__name">MXL V67G Microphone</span>
                                 </article>
                                 </div>
                                 <div className="mb-3">
                                  <article className="leaderboard__profile">
-                                <img src="https://randomuser.me/api/portraits/men/97.jpg" alt="Dustin Moskovitz" class="leaderboard__picture"/>
-                                <span className="leaderboard__name">Dustin Moskovitz</span>
+                                <img src={h2} class="leaderboard__picture"/>
+                                <span className="leaderboard__name">Stellar X2 Microphone</span>
                                 </article>
                                 </div>
                                 <div className="mb-3">
                                  <article className="leaderboard__profile">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/GuitareClassique5.png" alt="Dustin Moskovitz" class="leaderboard__picture"/>
-                                <span className="leaderboard__name">Dustin Moskovitz</span>
+                                <img src={h2} alt="Dustin Moskovitz" class="leaderboard__picture"/>
+                                <span className="leaderboard__name">Fender Frontman Amp</span>
                                 </article>
                                 </div>
                                 <div className="mb-3">
                                  <article className="leaderboard__profile">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/GuitareClassique5.png" alt="Dustin Moskovitz" class="leaderboard__picture"/>
-                                <span className="leaderboard__name">Dustin Moskovitz</span>
+                                <img src={h2} alt="Dustin Moskovitz" class="leaderboard__picture"/>
+                                <span className="leaderboard__name">Donner Mini Amp</span>
                                 </article>
                                 </div>
                                 <div className="mb-3">
                                  <article className="leaderboard__profile">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/GuitareClassique5.png" alt="Dustin Moskovitz" class="leaderboard__picture"/>
-                                <span className="leaderboard__name">Dustin Moskovitz</span>
+                                <img src={h2} alt="Dustin Moskovitz" class="leaderboard__picture"/>
+                                <span className="leaderboard__name">FLAMMA FX100 Pedal</span>
                                 </article>
                                </div>
                                <div className="mb-3">
                                  <article className="leaderboard__profile">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/GuitareClassique5.png" alt="Dustin Moskovitz" class="leaderboard__picture"/>
-                                <span className="leaderboard__name">Dustin Moskovitz</span>
+                                <img src={h2} alt="Dustin Moskovitz" class="leaderboard__picture"/>
+                                <span className="leaderboard__name">Mackie-FX Mixer </span>
+                                </article>
+                              </div>
+                              <div className="mb-3">
+                                 <article className="leaderboard__profile">
+                                <img src={h2} alt="Dustin Moskovitz" class="leaderboard__picture"/>
+                                <span className="leaderboard__name">Presonus 24.4 Mixer </span>
                                 </article>
                               </div>
                             </ul>
                     </div> 
+                    <div className="col  mt-4">
+                            <div className="row">
+                                      <CCard >       
+                                        <CCarousel animate autoSlide={3000}>
+                                        <CCarouselIndicators/>
+                                        <CCarouselInner>
+                                            <CCarouselItem>
+                                            <img className="d-block w-100" src={mic[0]} alt="slide 1"/>                                           
+                                            </CCarouselItem>
+                                            <CCarouselItem>
+                                            <img className="d-block w-100" src={mic[1]} alt="slide 2"/>
+                                            </CCarouselItem>
+                                            <CCarouselItem>
+                                            <img className="d-block w-100" src={mic[2]} alt="slide 3"/>                                          
+                                            </CCarouselItem>                          
+                                          
+
+                                        </CCarouselInner>
+                                        <CCarouselControl direction="prev"/>
+                                        <CCarouselControl direction="next"/>
+                                        </CCarousel>
+                                    
+                                    </CCard>
+                            </div>   
+                            <div className="row mt-5 ">
+                                      <CCard >       
+                                        <CCarousel animate autoSlide={3000}>
+                                        <CCarouselIndicators/>
+                                        <CCarouselInner>
+                                            <CCarouselItem>
+                                            <img className="d-block w-100" src={key[0]} alt="slide 1"/>                                           
+                                            </CCarouselItem>
+                                            <CCarouselItem>
+                                            <img className="d-block w-100" src={key[1]} alt="slide 2"/>
+                                            </CCarouselItem>
+                                            <CCarouselItem>
+                                            <img className="d-block w-100" src={key[2]} alt="slide 3"/>                                          
+                                            </CCarouselItem>                                   
+                                          
+
+                                        </CCarouselInner>
+                                        <CCarouselControl direction="prev"/>
+                                        <CCarouselControl direction="next"/>
+                                        </CCarousel>
+                                    
+                                    </CCard>
+                            </div>                   
+     
+
+                    </div>
+                    <div className="col  mt-4">                             
+                         
+                          <div className="row ml-3">
+                                      <CCard >       
+                                        <CCarousel animate autoSlide={3000}>
+                                        <CCarouselIndicators/>
+                                        <CCarouselInner>
+                                            <CCarouselItem>
+                                            <img className="d-block w-100" src={guitar[0]} alt="slide 1"/>                                           
+                                            </CCarouselItem>
+                                            <CCarouselItem>
+                                            <img className="d-block w-100" src={guitar[1]} alt="slide 2"/>
+                                            </CCarouselItem>
+                                            <CCarouselItem>
+                                            <img className="d-block w-100" src={guitar[2]} alt="slide 3"/>                                          
+                                            </CCarouselItem>                                       
+
+                                        </CCarouselInner>
+                                        <CCarouselControl direction="prev"/>
+                                        <CCarouselControl direction="next"/>
+                                        </CCarousel>
+                                    
+                                    </CCard>
+                            </div>   
+                         
+           
+                      
+                     </div>
       
-                    <div className="col ml-3">  
-                           <p style={styleobj}>Audio Gears</p>                            
+                    <div className="col mr-5">  
+                           <p style={styleobj}>Instruments</p>                            
                             <ul>
                                 <div className="mb-3 mt-5">
                                  <article className="leaderboard__profile">
-                                <img src={h2} alt="Dustin Moskovitz" class="leaderboard__picture"/>
-                                <span className="leaderboard__name">Dustin Moskovitz</span>
+                                <img src={inst} alt="Dustin Moskovitz" class="leaderboard__picture1"/>
+                                <span className="leaderboard__name">Ibanez GRGM </span>
                                 </article>
                                 </div>
                                 <div className="mb-3">
                                  <article className="leaderboard__profile">
-                                <img src="https://randomuser.me/api/portraits/men/97.jpg" alt="Dustin Moskovitz" class="leaderboard__picture"/>
-                                <span className="leaderboard__name">Dustin Moskovitz</span>
+                                <img src={inst} alt="Dustin Moskovitz" class="leaderboard__picture1"/>
+                                <span className="leaderboard__name">Fender Bullet </span>
                                 </article>
                                 </div>
                                 <div className="mb-3">
                                  <article className="leaderboard__profile">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/GuitareClassique5.png" alt="Dustin Moskovitz" class="leaderboard__picture"/>
-                                <span className="leaderboard__name">Dustin Moskovitz</span>
+                                <img src={inst} alt="Dustin Moskovitz" class="leaderboard__picture1"/>
+                                <span className="leaderboard__name">Bass Glarry GP</span>
                                 </article>
                                 </div>
                                 <div className="mb-3">
                                  <article className="leaderboard__profile">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/GuitareClassique5.png" alt="Dustin Moskovitz" class="leaderboard__picture"/>
-                                <span className="leaderboard__name">Dustin Moskovitz</span>
+                                <img src={inst} alt="Dustin Moskovitz" class="leaderboard__picture1"/>
+                                <span className="leaderboard__name">Donner DEK-610 Piano</span>
                                 </article>
                                 </div>
                                 <div className="mb-3">
                                  <article className="leaderboard__profile">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/GuitareClassique5.png" alt="Dustin Moskovitz" class="leaderboard__picture"/>
-                                <span className="leaderboard__name">Dustin Moskovitz</span>
+                                <img src={inst} alt="Dustin Moskovitz" class="leaderboard__picture1"/>
+                                <span className="leaderboard__name">RockJam 54-key keyboard</span>
                                 </article>
                                </div>
                                <div className="mb-3">
                                  <article className="leaderboard__profile">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/GuitareClassique5.png" alt="Dustin Moskovitz" class="leaderboard__picture"/>
-                                <span className="leaderboard__name">Dustin Moskovitz</span>
+                                <img src={inst} alt="Dustin Moskovitz" class="leaderboard__picture1"/>
+                                <span className="leaderboard__name">Donner DED-100 Drum Set</span>
+                                </article>
+                              </div>
+                              <div className="mb-3">
+                                 <article className="leaderboard__profile">
+                                <img src={inst} alt="Dustin Moskovitz" class="leaderboard__picture1"/>
+                                <span className="leaderboard__name">Mendini Violin</span>
                                 </article>
                               </div>
                             </ul>
                     </div>
-                    <div className="col ml-3">
-                          
-                         <div className="row mb-5">
-                              
-                                    <CCard>       
-                                        <CCarousel animate autoSlide={3000}>
-                                        <CCarouselIndicators/>
-                                        <CCarouselInner>
-                                            <CCarouselItem>
-                                            <img className="d-block w-100" src={audio[0]} alt="slide 1"/>                                           
-                                            </CCarouselItem>
-                                            <CCarouselItem>
-                                            <img className="d-block w-100" src={audio[1]} alt="slide 2"/>
-                                            </CCarouselItem>
-                                            <CCarouselItem>
-                                            <img className="d-block w-100" src={audio[2]} alt="slide 3"/>                                          
-                                            </CCarouselItem>
-                                            <CCarouselItem>
-                                            <img className="d-block w-100" src={audio[3]} alt="slide 3"/>                                          
-                                            </CCarouselItem>
-                                            <CCarouselItem>
-                                            <img className="d-block w-100" src={audio[4]} alt="slide 3"/>                                          
-                                            </CCarouselItem>
-                                        </CCarouselInner>
-                                        <CCarouselControl direction="prev"/>
-                                        <CCarouselControl direction="next"/>
-                                        </CCarousel>
-                                    
-                                    </CCard>
-                        </div>
-                        <div className="row mt-5">
-                                     <CCard>       
-                                        <CCarousel animate autoSlide={3000}>
-                                        <CCarouselIndicators/>
-                                        <CCarouselInner>
-                                            <CCarouselItem>
-                                            <img className="d-block w-100" src={ins[0]} alt="slide 1"/>                                           
-                                            </CCarouselItem>
-                                            <CCarouselItem>
-                                            <img className="d-block w-100" src={ins[1]} alt="slide 2"/>
-                                            </CCarouselItem>
-                                            <CCarouselItem>
-                                            <img className="d-block w-100" src={ins[2]} alt="slide 3"/>                                          
-                                            </CCarouselItem>
-                                            <CCarouselItem>
-                                            <img className="d-block w-100" src={ins[3]} alt="slide 3"/>                                          
-                                            </CCarouselItem>
-                                            <CCarouselItem>
-                                            <img className="d-block w-100" src={ins[4]} alt="slide 3"/>                                          
-                                            </CCarouselItem>
-                                        </CCarouselInner>
-                                        <CCarouselControl direction="prev"/>
-                                        <CCarouselControl direction="next"/>
-                                        </CCarousel>
-                                    
-                                    </CCard>
-                                    
-                                
-              
-                        </div>  
-                                
-                    </div>
+ 
 
               </div>
-         
-          </div>
-          // </section>
+ 
         
     )
 }
