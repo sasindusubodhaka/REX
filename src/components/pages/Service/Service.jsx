@@ -4,23 +4,11 @@ import home from '../../assets/img/com.jpg';
 
 
 import {
-  CBadge,
+
   CCard,
   CCardBody,
-  CCardFooter,
   CCardHeader,
-  CCol,
-  CRow,
-  CCollapse,
-  CFade,
-  CSwitch,
-  CLink,
-  CCarousel,
-  CCarouselCaption,
-  CCarouselControl,
-  CCarouselIndicators,
-  CCarouselInner,
-  CCarouselItem
+
 
 } from '@coreui/react'
 

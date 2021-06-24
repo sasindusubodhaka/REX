@@ -1,21 +1,14 @@
 import React,{useEffect} from 'react';
 import {portfolioLinks} from './portfolioLinks'
 import Youtube from 'react-youtube'
-import imsg from '../../assets/img/20.jpg';
 import img from '../../assets/img/audio2.jpg';
-import { white } from 'jest-matcher-utils/node_modules/chalk';
+
 import {
-  CBadge,
+
   CCard,
   CCardBody,
-  CCardFooter,
   CCardHeader,
-  CCol,
-  CRow,
-  CCollapse,
-  CFade,
-  CSwitch,
-  CLink
+
 } from  '@coreui/react'
 
 function Portfolio() {

@@ -63,7 +63,7 @@ function AudioGears() {
                                 </div>
                                 <div className="mb-3">
                                  <article className="leaderboard__profile">
-                                <img src={h2} class="leaderboard__picture"/>
+                                <img src={h2} class="leaderboard__picture" alt="Dustin Moskovitz"/>
                                 <span className="leaderboard__name">Stellar X2 Microphone</span>
                                 </article>
                                 </div>

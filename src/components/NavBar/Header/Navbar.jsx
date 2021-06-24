@@ -9,7 +9,7 @@ import './Navbar.css';
 
 
 function Navbar() {
-    const[clicked,setClicked]=useState(false);  
+    const[clicked]=useState(false);  
     return (
 
              <nav className="NavbarItems" >

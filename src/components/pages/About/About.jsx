@@ -1,16 +1,14 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import './About.css'
 import mix from '../../assets/img/12.jpg';
 import a from '../../assets/img/aa.jpg';
 import com1 from '../../assets/img/13.jpg'
 import com from '../../assets/img/audio.jpg';
-import black from '../../assets/img/audio1.jpg';
 import back from '../../assets/img/audio.jpg';
 import { SocialIcon } from 'react-social-icons';
 import {FaPhoneAlt,FaEnvelope} from "react-icons/fa";
 import {MdPlace} from "react-icons/md";
 import {
-  CBadge,
   CCard,
   CCardBody,
   CCardHeader, 
@@ -36,13 +34,7 @@ const About = () => {
   useEffect(() => {
     document.body.style.backgroundImage = `url('${a}')`;
   }, []);
-  const defaultProps = {
-    center: {
-      lat: 59.95,
-      lng: 30.33
-    },
-    zoom: 11
-  };
+
   return (
   
     <div >
@@ -173,7 +165,7 @@ const About = () => {
                       </div>
                       <div className="col-7 mt-5">
                          
-                              <iframe src="https://maps.google.com/maps?q=colombo&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                              <iframe src="https://maps.google.com/maps?q=colombo&t=&z=13&ie=UTF8&iwloc=&output=embed" title="map"
                                 width="100%" height="680" allowfullscreen data-aos="fade-left" data-aos-duration="3000"></iframe> 
                                             
                     </div>
