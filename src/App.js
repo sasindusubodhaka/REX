@@ -15,7 +15,7 @@ import './components/assets/css/style.css';
 function App() {
   return (
     <div className="App">
-            <Router>
+            <Router basename={window.location.pathname || ''}>
                 <Navbar />
                 <Switch>
                     <Route path="/" exact component={Home}></Route>
