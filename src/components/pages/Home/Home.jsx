@@ -31,13 +31,13 @@ function Home() {
 
                                                                 <div className="ml-3" >         
                                                                 <article className="leaderboard__profile">                          
-                                                                <SocialIcon url="https://facebook.com/jaketrent" />  
+                                                                <SocialIcon url="https://www.facebook.com/profile.php?id=100008945019054" />  
                                                                 </article>                        
                                                                 </div>
 
                                                                 <div className="ml-3" >  
                                                                 <article className="leaderboard__profile">                                
-                                                                <SocialIcon url="https://linkedin.com/jaketrent" />  
+                                                                <SocialIcon url="https://www.linkedin.com/in/sasindu-subodhaka-111419203/" />  
                                                                 </article>                         
                                                                 </div>                                                          
                                                         </div> 
