@@ -138,13 +138,13 @@ const About = () => {
 
                                                             <div className="mb-3 ml-2">         
                                                             <article className="">                          
-                                                            <SocialIcon url="https://facebook.com/jaketrent" />  
+                                                            <SocialIcon url="https://www.facebook.com/profile.php?id=100008945019054" />  
                                                             </article>                        
                                                             </div>
 
                                                             <div className="mb-3 ml-2">  
                                                             <article className="">                                
-                                                            <SocialIcon url="https://linkedin.com/jaketrent" />  
+                                                            <SocialIcon url="https://www.linkedin.com/in/sasindu-subodhaka-111419203/" />  
                                                             </article>                         
                                                             </div>
                                     </div>

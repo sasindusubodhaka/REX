@@ -35,7 +35,7 @@ function Navbar() {
                             {MenuItems.map((item, index) => {
                                 return (
                                     
-                                    <li key={index}  className="nav-item">
+                                    <li key={index}  className="nav-item ">
                                         <Link className="nav-links" to={item.link} onClick={updateState}>
                                             {item.title}
                                         </Link>
