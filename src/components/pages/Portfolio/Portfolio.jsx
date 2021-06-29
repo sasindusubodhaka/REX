@@ -23,7 +23,7 @@ function Portfolio() {
                     {
                       portfolioLinks && portfolioLinks.map((port, index) =>   
                
-                      <div className="row" >                          
+                      <div className="row" key={index} >                          
                                   <div className="col-6 mt-4">
                                     <div className="card h-100">
                                     <CCard color={port.color} className="text-white h-100" >

@@ -16,35 +16,21 @@ function Home() {
                                             <div className="intro-lead-in">WELCOME TO RECORDEX</div>
                                             <div className="intro-heading ">Have the Best Recording Experience</div>
                                             <a className="btn btn-primary btn-m text-uppercase" href="#portfolio">Tell Me More</a>   
-                                                          <div className="center mt-5"  style={{float: "none",margin: "35rem",display:"flex"}}>                                 
-                                                                <div className="ml-3 " >    
-                                                                <article className="leaderboard__profile">                             
-                                                                <SocialIcon url="https://twitter.com/jaketrent" /> 
-                                                                </article>                  
-                                                                </div>
-
-                                                                <div className="ml-3">  
-                                                                <article className="leaderboard__profile ">                                 
-                                                                <SocialIcon url="https://youtube.com/jaketrent"  /> 
-                                                                </article>                          
-                                                                </div>
-
-                                                                <div className="ml-3" >         
-                                                                <article className="leaderboard__profile">                          
-                                                                <SocialIcon url="https://www.facebook.com/profile.php?id=100008945019054" />  
-                                                                </article>                        
-                                                                </div>
-
-                                                                <div className="ml-3" >  
-                                                                <article className="leaderboard__profile">                                
-                                                                <SocialIcon url="https://www.linkedin.com/in/sasindu-subodhaka-111419203/" />  
-                                                                </article>                         
-                                                                </div>                                                          
-                                                        </div> 
-                                           
-                
-                                                
-                                                
+                                                                                        
+                                            <article className="mt-5  " >   
+                                                    <div className="mr-4" style={{display:"inline-block"}}>                                                 
+                                                    <SocialIcon url="https://twitter.com/jaketrent" />                                                   
+                                                    </div>     
+                                                    <div className="mr-4" style={{display:"inline-block"}}>                                                     
+                                                    <SocialIcon url="https://youtube.com/jaketrent"  />                                                 
+                                                    </div>     
+                                                    <div className="mr-4" style={{display:"inline-block"}}>                                  
+                                                    <SocialIcon url="https://www.facebook.com/profile.php?id=100008945019054" />    
+                                                    </div> 
+                                                    <div className="mr-4" style={{display:"inline-block"}}>                                                                                 
+                                                    <SocialIcon url="https://www.linkedin.com/in/sasindu-subodhaka-111419203/" />  
+                                                    </div> 
+                                            </article>                          
                                                
                                          
                                  
