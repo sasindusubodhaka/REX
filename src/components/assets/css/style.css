@@ -107,10 +107,10 @@ header.masthead .intro-text .intro-heading {
 }
 
    
-@media screen and (max-width: 858px){
+@media only screen and (max-device-width: 480px){
     .portfolio-item{
         margin-right: 0rem;
-        width: 130ch;
+        width: 90ch;
         
     }
     #port{
@@ -125,8 +125,8 @@ header.masthead .intro-text .intro-heading {
       
     }
     #you-tube{
-        height: 350px;
-        width: 400px;
+        height: 160px;
+        width: 275px;
     }
     #about{
         display: grid;
@@ -146,10 +146,10 @@ header.masthead .intro-text .intro-heading {
         
     }
     #about_card{
-        width: 25cm;
+        width: 21cm;
     }
     #about-details{
-        width: 12.5cm;
+        width: 10.8cm;
     }
     #map{
         /* margin-right: 5px; */
@@ -157,10 +157,12 @@ header.masthead .intro-text .intro-heading {
         height: 50cm;
     }
     #audio{
+        /* margin-left: 0px; */
         display: grid;
         grid-template-columns: repeat(1,auto);
         grid-gap :20px; 
         align-items: center;
+       
       
     }
     #slide{
@@ -176,7 +178,8 @@ header.masthead .intro-text .intro-heading {
         grid-template-columns: repeat(1,auto);
         grid-gap :20px; 
         align-items: center;
-        width: 25cm;
+        width:19cm;
+        /* width: 20cm; */
     }
     #homes{
         display: flex;
@@ -190,7 +193,8 @@ header.masthead .intro-text .intro-heading {
         margin-left: 0px; 
     }
     #equipments{
-       margin:-70px  0px; 
+       margin:-80px  -30px; 
+    
     }
  
 }

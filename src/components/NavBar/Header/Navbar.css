@@ -65,7 +65,8 @@
   
     font-size: 30px;
     color: white;
-    float: right;  
+    float: right; 
+    /* margin-right: 80px;  */
     margin-left: 140px;
     margin-bottom: 300px;
     margin-top: 200px;
