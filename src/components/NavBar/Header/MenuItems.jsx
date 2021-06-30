@@ -15,7 +15,7 @@ export const MenuItems=[
         cName:'nav-links'  
     },
     {
-        title:"AUDIO GEARS",
+        title:"EQUIPMENTS",
         link:"./audiogears",
         cName:'nav-links'  
     },

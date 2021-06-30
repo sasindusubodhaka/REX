@@ -17,36 +17,36 @@ function Portfolio() {
   },[]);
     return (    
          
-            <div className="container"> 
+            <div className="container" id="portcontainer"> 
                  <p style={{color:"white",fontFamily:"Segoe UI",fontSize:"40px"}}>OUR PORTFOLIO</p>
-            <div className="portfolio-item ml-5" >        
-                    {
-                      portfolioLinks && portfolioLinks.map((port, index) =>   
-               
-                      <div className="row" key={index} >                          
-                                  <div className="col-6 mt-4">
-                                    <div className="card h-100">
-                                    <CCard color={port.color} className="text-white h-100" >
-                                      <CCardHeader>
-                                        {port.title}  
-                                      </CCardHeader>
-                                      <CCardBody align="left">
-                                           Release date:{port.date} <br></br>
-                                          {port.description}
-                                      </CCardBody>
-                                    </CCard>
-                                  </div> 
-                                </div>
-                                <div className="col-6">                               '"
-                                    <Youtube videoId={port.url} />       
-                            
-                                 
-                                </div>
-                          
-                        </div>
-                        )
-                      }    
-                </div> 
+                <div className="portfolio-item ml-5" >        
+                        {
+                          portfolioLinks && portfolioLinks.map((port, index) =>   
+                  
+                          <div className="row" key={index} id="port">                          
+                                      <div className="col-6 mt-4" id="port_col">
+                                        <div className="card h-100">
+                                        <CCard color={port.color} className="text-white h-100" >
+                                          <CCardHeader>
+                                            {port.title}  
+                                          </CCardHeader>
+                                          <CCardBody align="left">
+                                              Release date:{port.date} <br></br>
+                                              {port.description}
+                                          </CCardBody>
+                                        </CCard>
+                                      </div> 
+                                    </div>
+                                    <div className="col-6" id="port_col">                               '"
+                                        <Youtube videoId={port.url} id="you-tube" />       
+                                
+                                    
+                                    </div>
+                              
+                            </div>
+                            )
+                          }    
+                    </div> 
                 </div>            
 
    

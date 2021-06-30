@@ -50,8 +50,8 @@ function AudioGears() {
       }
     return (
        
-             
-          <div className="row mt-5" > 
+      <div id="equipments">     
+          <div className="row mt-5" id="audio"> 
                     <div className="col ml-5 " style={{alignItems:'left'}}>    
                             <p style={styleobj}>Audio Gears</p>                       
                             <ul>
@@ -99,7 +99,7 @@ function AudioGears() {
                               </div>
                             </ul>
                     </div> 
-                    <div className="col  mt-4">
+                    <div className="col  mt-4" id="slide">
                             <div className="row">
                                       <CCard >       
                                         <CCarousel animate autoSlide={3000}>
@@ -123,7 +123,7 @@ function AudioGears() {
                                     
                                     </CCard>
                             </div>   
-                            <div className="row mt-5 ">
+                            <div className="row mt-4 ">
                                       <CCard >       
                                         <CCarousel animate autoSlide={3000}>
                                         <CCarouselIndicators/>
@@ -149,9 +149,9 @@ function AudioGears() {
      
 
                     </div>
-                    <div className="col  mt-4">                             
+                    <div className="col  mt-4 " id="slide1" >                             
                          
-                          <div className="row ml-3">
+                          <div className="row ml-3 mb-3">
                                       <CCard >       
                                         <CCarousel animate autoSlide={3000}>
                                         <CCarouselIndicators/>
@@ -228,7 +228,7 @@ function AudioGears() {
  
 
               </div>
- 
+              </div>  
         
     )
 }

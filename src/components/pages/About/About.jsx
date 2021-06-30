@@ -37,11 +37,11 @@ const About = () => {
 
   return (
   
-    <div >
-      <div className="container">
-              <div className="row mt-5 mb-5">
-                <div className="col">
-                  <div className="card h-100">
+    <div id="about">
+      <div className="container" >
+              <div className="row mt-5 mb-5" id="about_container">
+                <div className="col" id="about-details">
+                  <div className="card h-100" >
                     <CCard color="dark" className="text-white h-100">
                       <CCardHeader>
                         We are
@@ -57,10 +57,10 @@ const About = () => {
                     </CCard>
                   </div>
                 </div>
-                <div className="col-6">
+                <div className="col-6" id="about_card">
 
 
-                  <CCard>
+                  <CCard >
                     <CCarousel animate autoSlide={3000}>
                       <CCarouselIndicators />
                       <CCarouselInner>
@@ -89,7 +89,7 @@ const About = () => {
 
         </div>
         <section className="page-section " style={{backgroundImage:`url(${com1})`,backgroundSize:"cover"}} >
-                  <div className="row ml-5 mr-5">
+                  <div className="row ml-5 mr-5" id="about">
                       <div className="col-5">
                             <div className="row">
                             <h1 class="title font-weight-light text-white mt-2">Contact Us</h1>
@@ -163,7 +163,7 @@ const About = () => {
                                      
       
                       </div>
-                      <div className="col-7 mt-5">
+                      <div className="col-7 mt-5" id="map">
                          
                               <iframe src="https://maps.google.com/maps?q=colombo&t=&z=13&ie=UTF8&iwloc=&output=embed" title="map"
                                 width="100%" height="680" allowfullscreen data-aos="fade-left" data-aos-duration="3000"></iframe> 

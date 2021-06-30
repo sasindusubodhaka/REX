@@ -19,9 +19,9 @@ function Service() {
     return (
 
         
-              <div className="container"  >
+              <div className="container" id="services" >
                  <p style={{color:"white",fontFamily:"Segoe UI",fontSize:"40px"}}>OUR SERVICES</p>
-                  <div className="row">
+                  <div className="row" id="service">
                         <div className="col-6 ">     
                                 <div className="card mb-2 h-25">                           
                                       <CCard color="primary" className="text-white h-100" >

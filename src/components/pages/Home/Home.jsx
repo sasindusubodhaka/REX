@@ -7,9 +7,9 @@ function Home() {
         document.body.style.backgroundImage = `url('${bg}')`;  
     },[]);
     return (
-        <div className="container">
+        <div className="container" id="homes">
           
-                <header className="masthead">    
+                <header className="masthead" id="home">    
                     <div className="row  mb-3">             
                                 <div className="intro-text">
                                     

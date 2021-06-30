@@ -66,7 +66,7 @@
     font-size: 30px;
     color: white;
     float: right;  
-    margin-left: 200px;
+    margin-left: 140px;
     margin-bottom: 300px;
     margin-top: 200px;
     cursor: pointer;
@@ -91,21 +91,23 @@
     }
     .NavbarItems{
         position: relative;
-        height: 300px;
+        height: 300px;        
         backdrop-filter: blur(0px);
     }
 
     .nav-menu{
       position: fixed; 
       width: 50%; 
-      background: #201b91;     
+      background-image:url('./../../assets/img/nav.jpg');    
+      background-size: cover; 
       top: 0em;
       left: -100%;      
       text-align: center;
       transition: all .5s;  
       padding-bottom: 50px; 
       display: block;
-      opacity: .7;
+      opacity: .9;
+   
       
     }
     .nav-item{
