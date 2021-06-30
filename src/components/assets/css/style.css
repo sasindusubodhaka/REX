@@ -107,7 +107,7 @@ header.masthead .intro-text .intro-heading {
 }
 
    
-@media  (max-width: 858px){
+@media screen and (max-width: 480px){
     .portfolio-item{
         margin-right: 0rem;
         width: 130ch;
