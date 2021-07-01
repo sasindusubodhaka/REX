@@ -19,8 +19,8 @@ function Service() {
     return (
 
         
-              <div className="container" id="services" >
-                 <p style={{color:"white",fontFamily:"Segoe UI",fontSize:"40px"}}>OUR SERVICES</p>
+              <div className="container"  id="services">
+                 <p style={{color:"white",fontFamily:"Segoe UI",fontSize:"40px"}} id="service_tite">OUR SERVICES</p>
                   <div className="row" id="service">
                         <div className="col-6 ">     
                                 <div className="card mb-2 h-25">                           
