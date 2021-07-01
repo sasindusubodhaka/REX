@@ -41,7 +41,7 @@ const About = () => {
       <div className="container" >
               <div className="row mt-5 mb-5" id="about_container">
                 <div className="col" id="about-details">
-                  <div className="card h-100" >
+                  <div className="card h-100" id="about-slide" >
                     <CCard color="dark" className="text-white h-100">
                       <CCardHeader>
                         We are

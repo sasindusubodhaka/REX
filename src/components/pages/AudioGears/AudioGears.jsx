@@ -52,7 +52,7 @@ function AudioGears() {
        
       <div id="equipments">     
           <div className="row mt-5" id="audio"> 
-                    <div className="col ml-5 " style={{alignItems:'left'}}>    
+                    <div className="col ml-5 " style={{alignItems:'left'}} id="audio-gears">    
                             <p style={styleobj}>Audio Gears</p>                       
                             <ul>
                                 <div className="mt-5">
@@ -178,7 +178,7 @@ function AudioGears() {
                       
                      </div>
       
-                    <div className="col mr-5">  
+                    <div className="col mr-5" id="instrument">  
                            <p style={styleobj}>Instruments</p>                            
                             <ul>
                                 <div className="mb-3 mt-5">
