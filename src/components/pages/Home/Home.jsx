@@ -3,13 +3,15 @@ import '../../assets/css/style.css';
 import bg from '../../assets/img/home.jpg'
 import { SocialIcon } from 'react-social-icons';
 function Home() {
+    
     useEffect(()=>{
         document.body.style.backgroundImage = `url('${bg}')`;  
+        document.body.style.backgroundSize= `cover`; 
     },[]);
     return (
-        <div className="container" id="homes">
+        <div className="container" id="homes" >
           
-                <header className="masthead" id="home">    
+                <header className="masthead" >    
                     <div className="row  mb-3">             
                                 <div className="intro-text">
                                     
