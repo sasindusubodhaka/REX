@@ -211,16 +211,16 @@ header.masthead .intro-text .intro-heading {
         
     }
     #port-item{
-        width: 17cm;
+        width: 16cm;
     }
     #portcontainer{       
-        margin:-100px -0px ;  
+        margin:-100px 0px ;  
         overflow-x: hidden;
-        float: right;
+        
     }
     #you-tube{
         height: 180px;
-        width: 300px;
+        width: 282px;
     }
     #about{
         display: grid;
