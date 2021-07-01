@@ -109,9 +109,8 @@ header.masthead .intro-text .intro-heading {
    
 @media (max-width: 480px){
     .portfolio-item{
-        margin-right: rem;
-        width: 90ch;
-        
+        margin-right: 10px;
+        width: 90ch;     
        
         
     }
@@ -123,12 +122,12 @@ header.masthead .intro-text .intro-heading {
     }
 
     #portcontainer{       
-        margin:-100px -0px ;  
+        margin:-100px -20px ;  
         overflow-x: hidden;
     }
     #you-tube{
-        height: 160px;
-        width: 275px;
+        height: 180px;
+        width: 300px;
     }
     #about{
         display: grid;
