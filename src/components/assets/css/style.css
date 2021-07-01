@@ -105,8 +105,12 @@ header.masthead .intro-text .intro-heading {
   opacity: .9;
   font-size: 15px;
 }
-
-   
+#homes{
+    
+    margin:-100px 200px;
+    
+}
+  
 
 @media only screen and (max-width: 858px){
     .portfolio-item{
@@ -185,8 +189,8 @@ header.masthead .intro-text .intro-heading {
     #homes{
         display: flex;
         align-items: center;
-        margin:-250px;
-        margin-left: 0px;
+        margin:-250px 40px;
+        
     }
     #services{       
        
@@ -207,7 +211,8 @@ header.masthead .intro-text .intro-heading {
     #port{
         display: grid;
         grid-template-columns: repeat(1,auto);
-        grid-gap :5px;     
+        grid-gap :5px;    
+        margin-right: 10px; 
         
     }
     #port-item{
@@ -220,7 +225,7 @@ header.masthead .intro-text .intro-heading {
     }
     #you-tube{
         height: 180px;
-        width: 282px;
+        width: 275px;
     }
     #about{
         display: grid;
@@ -296,8 +301,7 @@ header.masthead .intro-text .intro-heading {
         align-items: center;
         margin:-250px;
         margin-left: 0px;
-        overflow-y: hidden;
-        overflow-y:scroll;
+
     }
 
     #service_title{
