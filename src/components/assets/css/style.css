@@ -108,6 +108,7 @@ header.masthead .intro-text .intro-heading {
 #homes{
     
     margin:-100px 200px;
+    background-size:cover ;
     
 }
   
@@ -190,6 +191,7 @@ header.masthead .intro-text .intro-heading {
         display: flex;
         align-items: center;
         margin:-250px 40px;
+        background-size: cover;
         
     }
     #services{       
@@ -301,6 +303,7 @@ header.masthead .intro-text .intro-heading {
         align-items: center;
         margin:-250px;
         margin-left: 0px;
+        background-size: cover;
 
     }
 
