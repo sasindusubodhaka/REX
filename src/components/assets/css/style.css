@@ -108,21 +108,18 @@ header.masthead .intro-text .intro-heading {
 
    
 @media (max-width: 480px){
-    .portfolio-item{
-        margin-right: 10px;
-        width: 90ch;     
-       
-        
-    }
+  
     #port{
         display: grid;
         grid-template-columns: repeat(1,auto);
         grid-gap :5px;     
         
     }
-
+    #port-item{
+        width: 17cm;
+    }
     #portcontainer{       
-        margin:-100px -20px ;  
+        margin:-100px -0px ;  
         overflow-x: hidden;
     }
     #you-tube{
