@@ -5,8 +5,8 @@ import { SocialIcon } from 'react-social-icons';
 function Home() {
     
     useEffect(()=>{
-        document.body.style.backgroundImage = `url('${bg}')`;  
-        document.body.style.backgroundSize= `cover`; 
+        document.body.style.backgroundImage = `url('${bg}')  `;  
+        document.body.style.backgroundSize= 'cover no-repeat'; 
     },[]);
     return (
         <div className="container" id="homes" >
