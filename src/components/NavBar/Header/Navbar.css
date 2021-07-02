@@ -66,8 +66,8 @@
     font-size: 30px;
     color: white;
     float: right; 
-    /* margin-right: 80px;  */
-    margin-left: 140px;
+    margin-right: 90px; 
+    margin-left:00px;
     margin-bottom: 300px;
     margin-top: 200px;
     cursor: pointer;
@@ -94,11 +94,12 @@
         position: relative;
         height: 300px;        
         backdrop-filter: blur(0px);
+        border-bottom-right-radius: 30%;
     }
 
     .nav-menu{
       position: fixed; 
-      width: 50%; 
+      width: 100%; 
       background-image:url('./../../assets/img/nav.jpg');    
       background-size: cover; 
       top: 0em;
@@ -108,6 +109,7 @@
       padding-bottom: 50px; 
       display: block;
       opacity: .9;
+      
    
       
     }
@@ -115,7 +117,7 @@
      
       display: block;
       margin: 20px 20px 50px 20px;
-      /* height: 100%; */
+      height: 100%;
       line-height: 10px;
     }
 

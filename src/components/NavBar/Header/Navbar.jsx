@@ -28,7 +28,7 @@ function Navbar() {
                     <input type="checkbox" id="check" checked={clicked} onChange={(e) => ABC(e)} />
                         <label htmlFor="check" className="checkbtn">
                             <i className="fas fa-bars"></i>
-                            <label className="logo">REX</label>
+                            <label className="logo">RECORDEX</label>
                         </label> 
                         
                         <ul className="nav-menu">
