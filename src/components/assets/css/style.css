@@ -105,12 +105,6 @@ header.masthead .intro-text .intro-heading {
   opacity: .9;
   font-size: 15px;
 }
-#homes{
-    
-    margin:-100px 200px;
-    background-size:cover ;
-    
-}
   
 
 @media only screen and (max-width: 858px){
@@ -186,7 +180,7 @@ header.masthead .intro-text .intro-heading {
         grid-gap :20px; 
         align-items: center;
         width: 25cm;
-        float: none;
+        
     }
     #homes{
         display: flex;
@@ -199,6 +193,7 @@ header.masthead .intro-text .intro-heading {
        
         margin:-100px;
         margin-left: 0px; 
+        float: none;
     }
     #equipments{
        margin:-70px  0px; 
