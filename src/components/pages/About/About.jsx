@@ -8,6 +8,8 @@ import back from '../../assets/img/audio.jpg';
 import { SocialIcon } from 'react-social-icons';
 import {FaPhoneAlt,FaEnvelope} from "react-icons/fa";
 import {MdPlace} from "react-icons/md";
+import NavBar from '../../NavBar/Header/Navbar'
+import Footer from '../../NavBar/Footer/Footer'
 import {
   CCard,
   CCardBody,
@@ -36,7 +38,8 @@ const About = () => {
   }, []);
 
   return (
-  
+    <React.Fragment>
+    <NavBar/>
     <div id="about">
       <div className="container" >
               <div className="row mt-5 mb-5" id="about_container">
@@ -172,6 +175,8 @@ const About = () => {
                     </div>
                </section>   
     </div>
+    <Footer/>
+              </React.Fragment>
         )
 }
 

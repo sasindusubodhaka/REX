@@ -24,6 +24,12 @@ export const MenuItems=[
         link:"./aboutus",
         cName:'nav-links'  
     },
+       {
+        title:"LOGIN",
+        link:"./login",
+        cName:'nav-links'  
+    }
+
 
  
 

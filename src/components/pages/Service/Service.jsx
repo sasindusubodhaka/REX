@@ -1,6 +1,7 @@
 import React,{useEffect} from 'react';
 import home from '../../assets/img/com.jpg';
-
+import NavBar from '../../NavBar/Header/Navbar'
+import Footer from '../../NavBar/Footer/Footer'
 
 
 import {
@@ -18,8 +19,9 @@ function Service() {
   },[]);
     return (
 
-        
-              <div className="container"  id="services">
+        <React.Fragment>
+          <NavBar/>
+             <div className="container"  id="services">
                  <p style={{color:"white",fontFamily:"Segoe UI",fontSize:"40px"}} id="service_tite">OUR SERVICES</p>
                   <div className="row" id="service">
                         <div className="col-6 ">     
@@ -148,7 +150,9 @@ function Service() {
                       </div>
                       </div>
               </div>
-             
+              <Footer/>
+              </React.Fragment>
+      
     
     )
 }

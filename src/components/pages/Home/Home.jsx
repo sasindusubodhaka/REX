@@ -3,6 +3,8 @@ import '../../assets/css/style.css';
 import bg from '../../assets/img/home.jpg'
 import { SocialIcon } from 'react-social-icons';
 import { Link } from 'react-router-dom';
+import NavBar from '../../NavBar/Header/Navbar'
+import Footer from '../../NavBar/Footer/Footer'
 function Home() {
     
     useEffect(()=>{
@@ -10,6 +12,8 @@ function Home() {
         
     },[]);
     return (
+       <React.Fragment>
+           <NavBar />
         <div className="container" id="homes" >
           
                 <header className="masthead" >    
@@ -48,8 +52,8 @@ function Home() {
   
              </div>
           
-           
-         
+                <Footer/>
+             </React.Fragment>  
              
       
              

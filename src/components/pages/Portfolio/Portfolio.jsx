@@ -2,6 +2,8 @@ import React,{useEffect} from 'react';
 import {portfolioLinks} from './portfolioLinks'
 import Youtube from 'react-youtube'
 import img from '../../assets/img/audio2.jpg';
+import NavBar from '../../NavBar/Header/Navbar'
+import Footer from '../../NavBar/Footer/Footer'
 
 import {
 
@@ -16,6 +18,8 @@ function Portfolio() {
     document.body.style.backgroundImage = `url('${img}')`;  
   },[]);
     return (    
+      <React.Fragment>
+      <NavBar/>
          
             <div className="container" id="portcontainer"> 
                  <p style={{color:"white",fontFamily:"Segoe UI",fontSize:"40px"}}>OUR PORTFOLIO</p>
@@ -49,7 +53,8 @@ function Portfolio() {
                     </div> 
                 </div>            
 
-   
+                <Footer/>
+              </React.Fragment>
     
      
         

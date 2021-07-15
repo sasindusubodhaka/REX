@@ -1,5 +1,7 @@
 import React,{useEffect} from 'react';
 import './Audio.scss';
+import NavBar from '../../NavBar/Header/Navbar'
+import Footer from '../../NavBar/Footer/Footer'
 
 import g1 from '../../assets/img/g5.jpg'; 
 import g2 from '../../assets/img/25.jpg';
@@ -49,7 +51,8 @@ function AudioGears() {
 
       }
     return (
-       
+      <React.Fragment>
+      <NavBar/>
       <div id="equipments">     
           <div className="row mt-5" id="audio"> 
                     <div className="col ml-5 " style={{alignItems:'left'}} id="audio-gears">    
@@ -229,7 +232,8 @@ function AudioGears() {
 
               </div>
               </div>  
-        
+              <Footer/>
+              </React.Fragment>
     )
 }
 
