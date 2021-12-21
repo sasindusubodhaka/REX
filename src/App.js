@@ -20,7 +20,7 @@ const loading = (
     <div className='sk-spinner sk-spinner-pulse'></div>
   </div>
 )
-
+//This is a comment
 function App() {
   const history=createBrowserHistory();
   return (
